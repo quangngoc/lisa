@@ -300,15 +300,6 @@ wheels = [
 ]
 
 [[package]]
-name = "datatypes-timex-expression"
-version = "1.0.2a2"
-source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/5a/3b/55480a78785602f3af74edf8a4a1a22d50ed98ad7d5fb09b9e5fa7845c25/datatypes-timex-expression-1.0.2a2.tar.gz", hash = "sha256:09019a195830b84758af655d7551f56795d6c7efb5b547230a69000cdff22e43", size = 13662 }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/2f/9a/8966ef2e3b6a3824bee6dfd8c61ba270e3d872c80ab10483f865f0893fda/datatypes_timex_expression-1.0.2a2-py3-none-any.whl", hash = "sha256:92d500312969c5d574a1af68b7063024f3aa48172e13d5f6add30b07f5341a6c", size = 21111 },
-]
-
-[[package]]
 name = "deprecated"
 version = "1.2.15"
 source = { registry = "https://pypi.org/simple" }
@@ -548,7 +539,6 @@ dependencies = [
     { name = "aiohttp" },
     { name = "asyncio" },
     { name = "chainlit" },
-    { name = "datatypes-timex-expression" },
     { name = "openai" },
     { name = "pydantic" },
     { name = "tenacity" },
@@ -568,8 +558,7 @@ requires-dist = [
     { name = "aiohttp", specifier = ">=3.11.11" },
     { name = "asyncio", specifier = ">=3.4.3" },
     { name = "chainlit", specifier = ">=2.0.0" },
-    { name = "datatypes-timex-expression", specifier = ">=1.0.2a2" },
-    { name = "openai", specifier = ">=1.59.3" },
+    { name = "openai", specifier = ">=1.59.4" },
     { name = "pydantic", specifier = "==2.10.4" },
     { name = "tenacity", specifier = ">=9.0.0" },
 ]
@@ -682,7 +671,7 @@ wheels = [
 
 [[package]]
 name = "openai"
-version = "1.59.3"
+version = "1.59.4"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "anyio" },
@@ -694,9 +683,9 @@ dependencies = [
     { name = "tqdm" },
     { name = "typing-extensions" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/73/d0/def3c7620e1cb446947f098aeac9d88fc826b1760d66da279e4712d37666/openai-1.59.3.tar.gz", hash = "sha256:7f7fff9d8729968588edf1524e73266e8593bb6cab09298340efb755755bb66f", size = 344192 }
+sdist = { url = "https://files.pythonhosted.org/packages/38/db/0e1376bdee3de8c16d91647d47dc47a26d2d6036931c76844e7d3e3fb989/openai-1.59.4.tar.gz", hash = "sha256:b946dc5a2308dc1e03efbda80bf1cd64b6053b536851ad519f57ee44401663d2", size = 344405 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/c7/26/0e0fb582bcb2a7cb6802447a749a2fc938fe4b82324097abccb86abfd5d1/openai-1.59.3-py3-none-any.whl", hash = "sha256:b041887a0d8f3e70d1fc6ffbb2bf7661c3b9a2f3e806c04bf42f572b9ac7bc37", size = 454793 },
+    { url = "https://files.pythonhosted.org/packages/99/01/1eefc235bb79174826b2fa0cad05bc2eab90eae97bf78c765887d7430e46/openai-1.59.4-py3-none-any.whl", hash = "sha256:82113498699998e98104f87c19a890e82df9b01251a0395484360575d3a1d98a", size = 454810 },
 ]
 
 [[package]]
