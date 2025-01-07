@@ -1,0 +1,30 @@
+[project]
+name = "lisa"
+version = "0.1.0"
+description = "Live Interactive Service Assistant"
+readme = "README.md"
+authors = [{ name = "Quang Ngoc DUONG", email = "quangngoc88@gmail.com" }]
+
+requires-python = ">=3.12"
+dependencies = [
+    "aiohttp>=3.11.11",
+    "asyncio>=3.4.3",
+    "chainlit>=2.0.0",
+    "datatypes-timex-expression>=1.0.2a2",
+    "openai>=1.59.3",
+    "pydantic==2.10.4",
+    "tenacity>=9.0.0",
+]
+
+[dependency-groups]
+dev = [
+    "anyio>=4.8.0",
+    "pytest>=8.3.4",
+    "pytest-cov>=6.0.0",
+    "pytest-dotenv>=0.5.2",
+    "pytest-sugar>=1.0.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

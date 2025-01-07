@@ -1,0 +1,4 @@
+target-version = "py312"
+
+line-length = 130
+indent-width = 4
