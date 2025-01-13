@@ -1,6 +1,7 @@
-import aiohttp
 import os
 from datetime import datetime
+
+import aiohttp
 
 
 async def recognize_date_time(text: str, culture="fr-fr") -> datetime:

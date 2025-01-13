@@ -1,6 +1,8 @@
-from lisa.scheduler import TimeSlotFetcher
 from datetime import datetime
+
 import pytest
+
+from lisa.scheduler import TimeSlotFetcher
 
 
 @pytest.mark.anyio

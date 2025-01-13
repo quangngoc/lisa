@@ -9,9 +9,11 @@ requires-python = ">=3.12"
 dependencies = [
     "aiohttp>=3.11.11",
     "asyncio>=3.4.3",
-    "chainlit>=2.0.0",
-    "openai>=1.59.4",
-    "pydantic==2.10.4",
+    "chainlit>=2.0.2",
+    "litellm>=1.57.8",
+    "openai>=1.59.6",
+    "openai-function-calling>=2.3.0",
+    "pydantic==2.10.5",
     "tenacity>=9.0.0",
 ]
 

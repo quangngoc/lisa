@@ -6,6 +6,7 @@
             "type": "debugpy",
             "request": "launch",
             "program": "src/lisa/app.py",
+            "justMyCode": false,
             "console": "integratedTerminal"
         }
     ]

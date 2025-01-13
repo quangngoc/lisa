@@ -1,10 +1,11 @@
-import aiohttp
+import logging
+import os
+import random
 from dataclasses import dataclass
 from datetime import datetime, timedelta
 from typing import List
-import logging
-import random
-import os
+
+import aiohttp
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)
@@ -33,7 +34,7 @@ class TimeSlotFetcher:
         while attempts < max_attempts:
             attempts += 1
             end_date = date + timedelta(days=1)
-            url = f"{os.environ["AGENDA_BASE_URL"]}/booking/available-slots"
+            url = f"{os.environ['AGENDA_BASE_URL']}/booking/available-slots"
             params = {
                 "start": date.strftime("%Y-%m-%d"),
                 "end": end_date.strftime("%Y-%m-%d"),
